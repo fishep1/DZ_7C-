@@ -20,7 +20,7 @@ class Programm
         {
             for (int x = 0; x < myArray.GetLength(1); x++)
             {
-                Console.Write(string.Format("{0:F1}", myArray[y, x] + "\t"));
+                Console.Write(myArray[y, x] + "\t"));
             }
             Console.WriteLine();
         }
