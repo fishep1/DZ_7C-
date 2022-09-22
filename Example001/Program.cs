@@ -13,7 +13,7 @@ class Programm
         {
             for (int x = 0; x < myArray.GetLength(1); x++)
             {
-                myArray[y,x] =random.Next(10) + Convert.ToDouble(random.Next(-1,10))/10;
+                myArray[y,x] =random.Next(-10, 10) + Convert.ToDouble(random.Next(1, 10))/10;
             }
         }
         for (int y = 0; y < myArray.GetLength(0); y++)
